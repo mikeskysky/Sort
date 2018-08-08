@@ -11,7 +11,7 @@ public class QuickSort
 {
 	public static void main(String[] args) 
 	{
-		int[] arr= {23,4,56,7,53,5,8};
+		int[] arr= {12,34,56,7,8,9,6,5};
 		quickSort(arr, 0, arr.length-1);
 		System.out.println(Arrays.toString(arr));
 	}
